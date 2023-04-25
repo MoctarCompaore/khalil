@@ -1,0 +1,56 @@
+body{ font-family: 'Arimo' sans-serif;margin: O;padding: 0 }
+
+
+
+.rigth{  text-align: right;}
+
+.main{
+    
+display: flex;
+flex-direction: column; align-items: center;margin-top: 100px;}
+img{
+ width: 400px;
+ height: auto;
+
+}
+a{ text-decoration: none;}
+.ee{ 
+    margin: 20px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+.IM{  }
+
+
+.form input{ margin-top:-50px;;  
+    padding: 5px;
+    border-radius:50px;
+   
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+outline: none}
+
+.bas{  
+display: flex;
+background-color: beige;
+    margin-top: 200px;
+}
+
+.OK{    padding: 50px; margin: 50px;}
+
+
+.navbar ul{ display: flex;}
+ul li{
+    list-style: none;
+    justify-content: space-between;
+    padding: 12px;
+    border: 2px solid red; 
+}
+.navbar ul li {
+
+display: flex;
+}
