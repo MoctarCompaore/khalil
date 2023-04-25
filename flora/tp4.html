@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice</title>
+</head>
+
+<style type="text/css">
+    @import url(css/style.css2);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+body{
+    
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+#navlist{
+    display: inline-block;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 8px;
+    padding: 10px;
+    float: right;
+    
+}
+.image{
+     width: 54px;
+     padding: 50px;
+     margin: 10px;
+     margin-top: 15px;
+     cursor: pointer;
+     position: relative;
+     top: -100px;
+     left: 350px;
+     text-align: center;
+     
+}
+.search{
+    position: relative;
+    top: -200px;
+    left: 1px;
+    text-align: center;
+    margin-right: 50px;  
+    border: solid 1px;
+    border-radius: 26px;
+    width: 450px;
+    height: 28px;
+    
+}
+.link2{
+    display: inline-block;
+    float: right;
+}
+.link1{
+    display: inline-block;
+    float: left;
+}
+.autres{
+    text-align: center;
+    position: relative;
+    top: -180px;
+    left: 1px;
+    margin-right: 30px;
+}
+</style>
+
+<body>
+
+    <div style="grid-template-columns: 1fr 1fr 1fr;">
+       <div id="navlist">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <img src="menu.jpg" alt="menu" width="15px" height="15px" >
+        <button>Connexion</button>
+      </div>
+
+      <div class="image">
+    <img src="google2.0.0.jpg" alt="logo google2" width="350" height="350">
+      </div>
+
+    <div class="search">
+     <form action="#">
+        <input type="text" name="Rechercher"><br><br><br>
+     </div>
+       
+     <div class="autres">
+        <a href="#">Recherche Google</a>
+        <a href="#">J'ai de la chance</a>
+        
+     </form>   
+    </div> 
+</div>
+    <footer>
+        <h1>Burkina Faso</h1>
+        <div class="link1">
+            <a href="#">A propos</a>
+            <a href="#">Publicité</a>
+            <a href="#">Entreprise</a>
+            <a href="#">Comment fonctionne la recherche Google?</a>
+        </div>
+
+        <div class="link2">
+            <a href="#">Confidentialité</a>
+            <a href="#">Conditions</a>
+            <a href="#">Paramètres</a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
